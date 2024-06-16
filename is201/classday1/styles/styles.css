@@ -1,0 +1,49 @@
+/* this will make all bodies on all of my different pages uniform. */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: gray;
+    color: white;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    color: maroon;
+}
+li {
+    font-weight: normal;
+    font-style: italic;
+}
+/* all of these . titles are personal tags you can attatch to anything. Pretty handy*/
+.playfrisbeelist 
+{font-weight: bold;
+ font-style: normal;}
+ .underline {text-decoration: underline;}
+ .bold {font-weight: bold;}
+ .justify {text-align: justify;}
+ .homepgpic {background-image: url('../Images/Kimball_Pew.jpg') ;
+                background-position: top right;
+            background-repeat: repeat;}
+a {
+color: fuchsia;
+font-style: normal;
+text-decoration: none;}
+a:hover 
+{text-decoration: underline;
+/*font-weight: bold;*/}
+a:visited{color: aqua;}
+/* The following were just an experiement on borders, padding, and margins */
+/* We made 3 different "a" css because we wanted to make the links different when you hover on them and when you click on them */
+.box1 {
+border-width: 1px;
+border-style: solid;
+border-color: gray;
+/*border: 1px solid red;*/
+}
+.box2 {
+padding: 5px;
+}
+.box3 {
+margin: 50px;
+}
